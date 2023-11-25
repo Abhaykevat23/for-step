@@ -75,7 +75,10 @@ body {
     display: block;
 }
 
-.dropdown ,.login,.search,.cart{
+.dropdown,
+.login,
+.search,
+.cart {
     margin-top: 15px;
 }
 
@@ -153,7 +156,7 @@ body {
     color: red;
     background-color: black;
     margin-bottom: 20px;
-    width:350px;
+    width: 350px;
 
 
     /* display: none; */
@@ -183,9 +186,19 @@ body {
     border: 2px solid red;
 }
 
+.link h2 {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
 .address {
     margin-left: 20px;
     margin-top: 30px;
+}
+
+.offices h2 {
+    margin-left: 120px;
+    margin-top: 20px;
 }
 
 .social-media {
@@ -196,3 +209,8 @@ body {
     border: 2px solid red;
     border-radius: 10px;
 }
+
+/* .social-media i{
+    font-size: 40px ;
+    margin-left: 40px;
+} */
